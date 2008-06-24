@@ -1,0 +1,8 @@
+{application, gravity,
+ [{description, "Multiplayer Spacewars clone"},
+  {vsn, "0.1"},
+  {modules, [gravity]},
+  {registered, [gravity]},
+  {applications, [kernel, stdlib]},
+  {mod, {gravity,[]}}
+ ]}.
